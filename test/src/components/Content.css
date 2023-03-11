@@ -1,0 +1,35 @@
+.titles{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 90px;
+}
+.subTitle1{
+display: flex;
+flex-direction: column;
+text-align: start;
+}
+.subTitle2{
+    display: grid;
+    text-align: end;
+    grid-template-areas:'auto auto';
+    gap: 50px;
+}
+.linearText{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:48px;
+    font-weight:900;
+}
+.linearTextSpan{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FD1D1D 121.36%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.consultationBtn{
+    padding:21px 35px 21px 35px ;
+    color: #fff;
+    background: #4077F3;
+}

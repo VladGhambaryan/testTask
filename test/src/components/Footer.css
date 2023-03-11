@@ -1,0 +1,49 @@
+.footerContainer{
+    display: flex;
+    padding-top: 124px;
+    justify-content: space-between;
+    color: #fff;
+    opacity: 0.8;
+}
+.aboutUs{
+display: flex;
+flex-direction: column;
+text-align: start;
+}
+.menuClass{
+    display: flex;
+    flex-direction: column;
+text-align: start;
+
+}
+.casessClass{
+    display: flex;
+    flex-direction: column;
+text-align: start;
+
+}
+.connectUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end   ;
+    white-space: nowrap;
+   
+}
+.aboutText{
+    color:#656566;
+    font-weight: 700;
+    font-size:14px
+}
+.confidentialTerms{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #E4E5EA;
+    padding-top: 70px;
+}
+@media (min-widt:320px) {
+    .footerContainer{
+        display: grid;
+        grid-template-areas: "auto auto";
+    }
+}

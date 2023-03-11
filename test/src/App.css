@@ -1,0 +1,35 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-color: #1E1E1E;
+  padding:46px 150px 20px 150px;
+
+}
+.poeIconBig{
+position: absolute;
+top:3%;
+left:0%
+}
+
+.poeIconnormal{
+  position: absolute;
+  top:7%;
+  left:36%
+}
+.poeIconsmall{
+  position: absolute;
+  top:0%;
+  right:33%
+}
+.purpleLight{
+  position: absolute;
+  top:0%;
+  left:15%
+}
+.poeIconExtraSmall{
+  position: absolute;
+  bottom: 40%;
+  right:35%;
+
+}
+
